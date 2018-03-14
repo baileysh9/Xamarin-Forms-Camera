@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:XamarinFormsCamera" x:Class="XamarinFormsCamera.XamarinFormsCameraPage">
+<StackLayout Padding="20">
+    <Button Text="Select Image" HorizontalOptions="CenterAndExpand" Clicked="SelectImageClicked"></Button>
+    <Image x:Name="img" Aspect="AspectFit" WidthRequest="300"></Image>
+</StackLayout>
+</ContentPage>
